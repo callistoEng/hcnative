@@ -1,0 +1,147 @@
+ ListFooterComponent={
+          <>
+          <MainCard/>
+            {/* <View style={[styles2.container, { padding: SIZES.padding }]}>
+              <View>
+                <Text
+                  style={{ ...FONTS.h2, color: "#3c3c3b", paddingVertical: 10 }}
+                >
+                  Kitchen staff
+                </Text>
+              </View>
+              <SwiperFlatList
+                autoplay
+                autoplayDelay={5}
+                autoplayLoop
+                index={0}
+                paginationDefaultColor={"#3c3c3b"}
+                paginationActiveColor={"#008c3e"}
+                showPagination
+                paginationStyleItem={{
+                  width: 8,
+                  height: 8,
+                }}
+                data={colors}
+                // renderItem={andis}
+                renderItem={({ itz }) => (
+                  <View
+                    style={{
+                      height: 300,
+                      backgroundColor: itz,
+                      marginRight: 15,
+                    }}
+                  >
+                    <TouchableOpacity>
+                      <Image
+                        resizeMode="cover"
+                        source={images.img2}
+                        style={{
+                          width: SIZES.width * 0.45,
+                          height: 200,
+                          borderTopLeftRadius: 5,
+                          borderTopRightRadius: 5,
+                        }}
+                      />
+
+                      <View>
+                        <Text>sime text to gouyuyuyuy</Text>
+                      </View>
+                      <View style={{ flexDirection: "row", marginTop: 5 }}>
+                        <Text style={{ marginRight: 10 }}>KSh 11,000</Text>
+                        <Text
+                          style={{
+                            textDecorationLine: "line-through",
+                            color: COLORS.primary,
+                          }}
+                        >
+                          KSh 11,000
+                        </Text>
+                      </View>
+                    </TouchableOpacity>
+                    <View
+                      style={{
+                        position: "absolute",
+                        top: 15,
+                        right: 14,
+                        height: 22,
+                        backgroundColor: COLORS.primary,
+                        alignItems: "center",
+                        justifyContent: "center",
+
+                        ...styles.shadow,
+                        padding: 4,
+                      }}
+                    >
+                      <Text style={{ ...FONTS.p, color: COLORS.white }}>
+                        -25%
+                      </Text>
+                    </View>
+                  </View>
+                )}
+              />
+            </View>
+            <Text>Another oine</Text>
+            <View style={styles2.container}>
+              <SwiperFlatList
+                autoplay
+                autoplayDelay={2}
+                autoplayLoop
+                index={2}
+                showPagination
+                data={colors}
+                renderItem={({ item }) => (
+                  <View style={[styles2.child, { backgroundColor: item }]}>
+                    <Text style={styles2.text}>{item}</Text>
+                  </View>
+                )}
+              />
+            </View>
+            <View style={styles2.container}>
+              <SwiperFlatList
+                autoplay
+                autoplayDelay={2}
+                autoplayLoop
+                index={2}
+                showPagination
+                data={colors}
+                renderItem={({ item }) => (
+                  <View style={[styles2.child, { backgroundColor: item }]}>
+                    <Text style={styles2.text}>{item}</Text>
+                  </View>
+                )}
+              />
+            </View>
+            <View style={styles2.container}>
+              <SwiperFlatList
+                autoplay
+                autoplayDelay={2}
+                autoplayLoop
+                index={2}
+                showPagination
+                data={colors}
+                renderItem={({ item }) => (
+                  <View style={[styles2.child, { backgroundColor: item }]}>
+                    <Text style={styles2.text}>{item}</Text>
+                  </View>
+                )}
+              />
+            </View>
+            <View style={styles2.container}>
+              <SwiperFlatList
+                autoplay
+                autoplayDelay={2}
+                autoplayLoop
+                index={2}
+                showPagination
+                data={colors}
+                renderItem={({ item }) => (
+                  <View style={[styles2.child, { backgroundColor: item }]}>
+                    <Text style={styles2.text}>{item}</Text>
+                  </View>
+                )}
+              />
+            </View>
+           */}
+          
+          </>
+        }
